@@ -34,11 +34,13 @@
             class="form-control"
             placeholder="Search Movie Title..."
             id="movie-search-box"
+            onkeyup="findMovies()"
+            onclick="findMovies()"
           />
 
           <div class="search-list" id="search-list">
             <!-- list -->
-            <div class="search-list-item">
+            <!-- <div class="search-list-item">
               <div class="search-item-thumbnail">
                 <img src="./assets/medium-cover.jpg" alt="" />
               </div>
@@ -46,7 +48,7 @@
                 <h3>Guardians of the Galaxy Vol. 2</h3>
                 <p>2017</p>
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
@@ -56,8 +58,8 @@
       <div class="container">
         <div class="result-container">
           <div class="result-grid" id="result-grid">
-            <!-- movi info here -->
-            <div class="movie-poster">
+            <!-- movie info here -->
+            <!-- <div class="movie-poster">
               <img src="./assets/medium-cover.jpg" alt="movie poster" />
             </div>
             <div class="movie-info">
@@ -84,7 +86,7 @@
               <p class="awards">
                 <b><i class="fas fa-award"></i></b> Nominated for 1 Oscar
               </p>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
